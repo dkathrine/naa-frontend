@@ -1,0 +1,257 @@
+/* ---------Landingpage Header Section----------------- */
+.landingpage_header{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 92.6vh /* 91.76vh */;
+    min-height: 999.48px /* 991px */;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.landingpage_header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(270deg, #FFFFFF00 0%, #000000E6 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+
+.lheader_date_clock_temp{
+    font-size: 1rem /* 16px */;
+    margin-top: 55px;
+    margin-left: 127px;
+}
+
+.lheader_title{
+    font-size: 3.75rem; /* 60px */;
+    line-height: 1.2;
+    margin-left: 127px;
+    h1{
+        margin: 0;
+        width: 60%;
+    }
+}
+
+.lheader_categories{
+    height: 207px;
+    padding: 0px 127px;
+    border-top: 1px solid #fff;
+    background: #00000080 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.lheader_category{
+    flex: 1 0 auto;
+    max-width: 381px;
+    height: 94px;
+    background-color: #3b3b3b80;
+    border: 1px solid #fff;
+    border-radius: 19px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3{
+        font-weight: bold;
+        margin: 0 19px;
+    }
+    p{
+        margin: 0 19px;
+    }
+}
+
+.lheader_category:hover{
+    background: #2b2b2b80;
+    border: 1px solid #ffffff80;
+}
+
+/* --------------Landingpage Main Section---------------- */
+.landingpage_main{
+    color: #3A3A3A;
+    padding: 76px 127px 128px;
+}
+
+.lmain_newest{
+    margin-bottom: 99px;
+    h2{
+        border-left: 4px solid #3A3A3A;
+        padding-left: 14px;
+    }
+}
+
+.lmain_newest_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lmain_newest_cards > div {
+    flex: 1 0 auto;
+}
+
+.lmain_popular{
+    margin-bottom: 99px;
+    h2{
+        border-left: 4px solid #3A3A3A;
+        padding-left: 14px;
+    }
+}
+
+.lmain_popular_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+/* --------------Responsivity Section---------------- */
+@media (max-width: 1712px){
+    .lheader_title{
+        h1{
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 1484px){
+    .lheader_title{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1433px){
+    .lheader_title{
+        font-size: 3rem;
+    }
+
+    .lheader_categories{
+        justify-content: flex-start; 
+        gap: 0px;
+
+        .lheader_category{
+            flex: 1 0 0;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 1178px){
+    .lheader_categories {
+        height: 210px;
+        justify-content: space-evenly; 
+
+        .lheader_category {
+            flex: 1 1 50%;
+            max-width: 381px;
+            height: 75px;
+        }
+    }
+}
+
+@media (max-width: 1078px){
+    .lheader_title{
+        font-size: 2.4rem;
+    }
+
+    .lheader_categories {
+        .lheader_category {
+            flex: 1 1 40%;
+        }
+    }
+}
+
+@media (max-width: 930px){
+    .landingpage_header{
+        height: 91.3vh;
+        min-height: 800px;
+
+        .lheader_date_clock_temp{
+            margin-left: 5%;
+        }
+        
+        .lheader_title{
+            margin-left: 5%;
+        }
+    
+        .lheader_categories{
+            padding: 10px 5%;
+            justify-content: space-between;
+        }
+    }
+
+    .landingpage_main{
+        padding: 76px 5% 128px;
+    }
+}
+
+@media (max-width: 768px){
+    .landingpage_header{
+        justify-content: space-evenly;
+
+        .lheader_date_clock_temp{
+            margin-top: 0;
+        }
+
+        .lheader_title{
+            font-size: 2rem;
+
+            h1 {
+                margin-bottom: 5%;
+            }
+        }
+
+        .lheader_categories {
+            visibility: hidden;
+        }
+    }
+}
+
+@media (max-width: 490px){
+    .landingpage_header{
+        
+        .lheader_title{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 440px){
+    .lmain_popular{
+        h2{
+            border-left: 4px solid #3A3A3A;
+            padding-left: 5px;
+        }
+    }
+}
+
+@media (max-width: 390px){
+    .landingpage_header{
+        min-height: 605px;
+        .lheader_title{
+            font-size: 1.2rem;
+        }
+    }
+    
+    .landingpage_main{
+        padding: 76px 3% 128px;
+
+        .lmain_newest_cards{
+            gap: 10px;
+        }
+    }
+}

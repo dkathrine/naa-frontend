@@ -1,0 +1,203 @@
+.kontakt_container{
+    /* padding: 77px 280px 0px; */
+    padding: 7.06vh 14.58vw 0vh;
+
+    h2{
+        border-left: 4px solid #3A3A3A;
+        padding-left: 14px;
+    }
+}
+
+.kontakt_main{
+    padding-top: 30px;
+    margin-bottom: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kontakt_left{
+    font-size: 44px;
+    width: 30.73vw;
+}
+
+.kontakt_form{
+    width: 34.22vw;
+    border: 1px solid #dfdfdf;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    form{
+        display: flex;
+        flex-direction: column;
+        input, select{
+            width: 28.98vw;
+            padding: 20px 15px;
+            background-color: #E4F2F2;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 7px;
+        }
+    }
+    h4{
+        font-size: 20px;
+        padding-top: 34px;
+    }
+    span {
+        font-size: 12px;
+        color: #fc0000;
+        text-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+.message_field{
+    height: 118px;
+    padding: 20px 15px;
+    border-radius: 7px;
+    background-color: #E4F2F2;
+    border: none;
+    resize: none;
+}
+
+.kontakt_p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.submit_button{
+    margin-top: 30px;
+    margin-bottom: 44px;
+    width: 158px;
+    height: 44px;
+    padding: 12px 25px;
+    background: #3B3B3B 0% 0% no-repeat padding-box;
+    border: 1px solid #3B3B3B;
+    border-radius: 25px;
+    text-align: center;
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.submit_button:hover, .submit_button:active{
+    background: #2b2b2b;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.submit_button:active{
+    background: #E4F2F2;
+    border: 1px solid #3B3B3B;
+    color: #3A3A3A;
+}
+
+/* media queries */
+@media only screen and (max-width: 1260px){
+    .kontakt_container{
+        padding: 7.06vh 15vw 0vh;
+    }
+    .kontakt_main{
+        padding-top: 10px;
+        flex-direction: column;
+    }
+    .kontakt_left{
+        font-size: 44px;
+        width: 70.73vw;
+    }
+    .kontakt_form{
+        width: 70.73vw;
+        form{
+            input{
+                width: 62vw;
+                padding: 20px 15px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .kontakt_container{
+        padding: 7.06vh 10vw 0vh;
+    }
+    .kontakt_main{
+        padding-top: 0px;
+    }
+    .kontakt_left{
+        font-size: 44px;
+        width: 80.73vw;
+    }
+    .kontakt_form{
+        width: 80.73vw;
+        form{
+            input{
+                width: 72vw;
+                padding: 20px 15px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 590px){
+    .kontakt_container{
+        padding: 7.06vh 4vw 0vh;
+    }
+    .kontakt_left{
+        font-size: 34px;
+        width: 90.73vw;
+    }
+    .kontakt_form{
+        width: 90.73vw;
+        form{
+            input{
+                width: 82vw;
+                padding: 20px 15px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 435px){
+    .kontakt_container{
+        padding: 7.06vh 4vw 0vh;
+    }
+    .kontakt_left{
+        font-size: 28px;
+    }
+    .kontakt_form{
+        form{
+            input{
+                width: 82vw;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .kontakt_container{
+        padding: 4.06vh 2vw 0vh;
+    }
+    .kontakt_left{
+        font-size: 24px;
+        width: 95.73vw;
+    }
+    .kontakt_form{
+        width: 95.73vw;
+        form{
+            input{
+                width: 90vw;
+            } 
+        }
+        h4{
+            font-size: 18px;
+        }
+    }
+}

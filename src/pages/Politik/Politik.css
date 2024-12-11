@@ -1,0 +1,24 @@
+.politic_content{
+    /* padding: 76px 127px 128px; */
+    padding: 4.75rem 7.938rem 8rem;
+}
+
+@media only screen and (max-width: 1024px){
+    .politic_content{
+        padding: 4.75rem 4rem 8rem;
+    }
+}
+
+@media (max-width: 930px){
+    .politic_content{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 325px){
+    .politic_content{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}

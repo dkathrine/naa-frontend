@@ -1,0 +1,132 @@
+.magazine_content{
+    /* padding: 76px 127px 128px; */
+    padding: 4.75rem 7.938rem 8rem;
+        h2{
+            border-left: 4px solid #3A3A3A;
+            padding-left: 14px;
+        }
+}
+
+#magazine_headline{
+    margin-left: 6.4%;
+}
+
+.magazine_container{
+    padding: 0 103px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.recent_magazine{
+   margin: 69px;
+}
+
+.recent_magazine_title_container{
+    h3{
+        margin-top: 0;
+    }
+}
+
+.recent_magazine_container{
+    display: flex;
+    gap: 106px;
+    margin-top: 24px;
+}
+
+.recent_magazine_img{
+    width: 432px;
+    height: 561px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.recent_magazine_description{
+    width: 491px;
+    overflow: hidden;
+    white-space:wrap;
+    text-overflow: ellipsis;
+}
+
+.magazine_loop{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1300px){
+    #magazine_headline{
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #magazine_headline{
+        margin-left: 3%;
+    }
+    .magazine_content{
+        padding: 4.75rem 4rem 8rem;
+    }
+    .recent_magazine_container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .recent_magazine_description{
+        width: 432px;
+    }
+    .magazine_loop{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    #magazine_headline{
+        margin-left: 0%;
+    }
+    .magazine_content{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 452px){
+    #magazine_headline{
+        margin-left: 2%;
+    }
+    .recent_magazine{
+        margin: 30px;
+    }
+    .recent_magazine_img{
+        width: 372px;
+        height: 491px;
+    }
+    .recent_magazine_description{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 377px){
+    #magazine_headline{
+        margin-left: 2%;
+    }
+    .recent_magazine{
+        margin: 30px;
+    }
+    .recent_magazine_img{
+        width: 302px;
+        height: 431px;
+    }
+    .recent_magazine_description{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 325px){
+    .magazine_content{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}

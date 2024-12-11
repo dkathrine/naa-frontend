@@ -1,0 +1,112 @@
+.notdienst_container{
+    display: flex;
+    flex-direction: column;
+    
+
+    /* padding: 77px 303px 0px; */
+    padding: 4.813rem 18.938rem 0rem;
+    
+    h2{
+        border-left: 4px solid #3A3A3A;
+        padding-left: 14px;
+    }
+}
+
+.notdienst_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 40px;
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.notdienst_button_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notdienst_button{
+    font-size: 14px;
+    width: 158px;
+    height: 44px;
+    border: 1px solid #3b3b3b;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notdienst_button:hover, .notdienst_button:active{
+    border: 1px solid #222222;
+    background-color: #3b3b3b18;
+    cursor: pointer;
+}
+
+.notdienst_news_container{
+    padding: 76px 127px 128px;
+}
+
+@media only screen and (max-width: 1510px){
+    .notdienst_container{
+        padding: 4rem 10rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .notdienst_container{
+        padding: 4rem 6rem 0rem;
+    }
+    .notdienst_content{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .notdienst_news_container{
+        padding: 4.75rem 6rem 8rem;
+    }
+}
+
+@media (max-width: 930px){
+    .notdienst_container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .notdienst_news_container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/* @media only screen and (max-width: 786px){
+    .notdienst_container{
+        padding: 4rem 4rem 0rem;
+    }
+    .notdienst_news_container{
+        padding: 4.75rem 4rem 8rem;
+    }
+}
+
+@media only screen and (max-width: 435px){
+    .notdienst_container{
+        padding: 3rem 2rem 0rem;
+    }
+    .notdienst_news_container{
+        padding: 3rem 2rem 6rem;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .notdienst_container{
+        padding: 2rem 1rem 0rem;
+    }
+    .notdienst_news_container{
+        padding: 2rem 1rem 6rem;
+    }
+} */

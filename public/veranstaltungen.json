@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Virtual Coding Bootcamp",
+        "date_time": "20.04.2025, 16.00 Uhr",
+        "type": "Online Workshop",
+        "who": "TechSavvy Community",
+        "desc": "A free online coding bootcamp for beginners, focusing on Python programming."
+    },
+    {
+        "id": 2,
+        "title": "Spring Food Festival",
+        "date_time": "01.05.2025, 12.00 Uhr",
+        "type": "Outdoor Event",
+        "who": "City Council & Local Vendors",
+        "desc": "A vibrant outdoor festival featuring food, live music, and family-friendly activities."
+    },
+    {
+        "id": 3,
+        "title": "Open Mic Poetry Night",
+        "date_time": "10.06.2025, 19.30 Uhr",
+        "type": "Art & Culture",
+        "who": "Downtown Poetry Society",
+        "desc": "An open mic event for poets to showcase their work in a cozy downtown café setting."
+    },
+    {
+        "id": 4,
+        "title": "City Marathon",
+        "date_time": "15.09.2025, 07.00 Uhr",
+        "type": "Sports Event",
+        "who": "City Sports Association",
+        "desc": "A marathon through the city’s main streets to promote fitness and community spirit."
+    },
+    {
+        "id": 5,
+        "title": "AI and the Future of Work Webinar",
+        "date_time": "22.03.2025, 15.00 Uhr",
+        "type": "Online Seminar",
+        "who": "Innovators Network",
+        "desc": "A webinar exploring the impact of artificial intelligence on the future job market."
+    }
+]

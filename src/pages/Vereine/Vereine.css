@@ -1,0 +1,134 @@
+.vereine_container{
+/* padding: 77px 280px 0px; */
+    padding: 4.813rem 17.5rem 0rem;
+
+    h2{
+        border-left: 4px solid #3A3A3A;
+        padding-left: 14px;
+    }
+}
+
+.vereine_content_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.vereine_content{
+    width: 634px;
+    height: 194px;
+    background-color: #F8F8F8;
+    border-radius: 22px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3{
+        padding-left: 49px;
+    }
+}
+
+.vereine_content_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 49px;
+}
+
+.vereine_button_container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    a {
+        text-decoration: none;
+        color: #3A3A3A;
+    }
+}
+
+.vereine_button{
+    font-size: 14px;
+    width: 158px;
+    height: 44px;
+    border: 1px solid #3b3b3b;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vereine_button:hover, .vereine_button:active{
+    border: 1px solid #222222;
+    background-color: #3b3b3b18;
+    cursor: pointer;
+}
+
+.vereine_news_container{
+    padding: 76px 127px 128px;
+}
+
+@media only screen and (max-width: 1843px){
+    .vereine_content_container{
+     justify-content: center;
+    }
+ }
+ 
+ @media only screen and (max-width: 1124px){
+    .vereine_container{
+        padding: 4.813rem 8rem 0rem;
+    }
+}
+
+@media (max-width: 930px){
+    .vereine_container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .vereine_news_container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/* @media only screen and (max-width: 786px){
+    .vereine_container{
+        padding: 4.813rem 6rem 0rem;
+    }
+    .vereine_news_container{
+        padding: 4.75rem 4.5rem 8rem;
+    }
+}
+
+@media only screen and (max-width: 435px){
+    .vereine_container{
+        padding: 3rem 2rem 0rem;
+    }
+    .vereine_news_container{
+        padding: 3rem 2rem 5rem;
+    }
+} */
+
+@media only screen and (max-width: 448px){
+    /* .vereine_container{
+        padding: 2rem 1rem 0rem;
+    }
+    .vereine_news_container{
+        padding: 2rem 1rem 4rem;
+    } */
+    .vereine_content{
+        width: 634px;
+        height: 194px;
+        h3{
+            padding-left: 29px;
+        }
+    }
+    
+    .vereine_content_bottom{
+        align-items: flex-start;
+        flex-direction: column;
+    
+        padding: 0px 29px;
+    }
+}

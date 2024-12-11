@@ -1,0 +1,66 @@
+.magazine{
+    margin: 39px 60px;
+    width: 338px;
+ }
+ 
+ .magazine_title_container{
+    width: 338px;
+     h3{
+         margin-top: 0;
+     }
+ }
+ 
+ .magazine_container{
+     display: flex;
+     gap: 30px;
+     margin-top: 24px;
+ }
+ 
+ .magazine_img{
+     width: 338px;
+     height: 441px;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ 
+ .magazine_description{
+     width: 338px;
+     overflow: hidden;
+     white-space:wrap;
+     text-overflow: ellipsis;
+ }
+
+ @media only screen and (max-width: 1024px){
+
+}
+
+@media only screen and (max-width: 930px){
+
+}
+
+@media only screen and (max-width: 452px){
+    .magazine{
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width: 377px){
+    .magazine{
+        width: 280px;
+     }
+    .magazine_title_container{
+        width: 280px;
+     }
+    .magazine_img{
+        width: 280px;
+        height: 401px;
+    }
+    .magazine_description{
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 325px){
+
+}

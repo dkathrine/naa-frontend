@@ -1,0 +1,49 @@
+.picture_card{
+    width: 300px;
+    height: 364px;
+
+    border-radius: 22px;
+    position: relative;
+    overflow: hidden;
+
+    /* margin: 18px; */
+}
+
+.picture_card_pic{
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 22px;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #fff;
+    font-size: 24px;
+
+    position: relative;
+    z-index: 1;
+
+    p{
+        padding: 20px 36px;
+        z-index: 2;
+    }
+
+    ::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent linear-gradient(180deg, #FFFFFF00 0%, #000000E6 100%) 0% 0% no-repeat padding-box;
+        mix-blend-mode: multiply;
+        z-index: -1;
+    }
+
+    :hover {
+        cursor: pointer;
+    }
+}

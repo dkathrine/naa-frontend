@@ -1,0 +1,133 @@
+.popular_card{
+    display: flex;
+    width: fit-content;
+    border-bottom: 1px solid #DFDFDF;
+    padding-bottom: 27px;
+}
+
+.popular_card_left{
+    background-position: center;
+    background-size: cover;
+    border-radius: 22px;
+    height: 232px;
+    width: 232px;
+}
+
+.button_div{
+    height: 44px;
+}
+
+.popular_card_right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 41px;
+    h2{
+        width: 474px;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    p{
+        width: 474px;
+        font-size: 14px;
+    }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 810px) {
+    .popular_card_right {
+        gap: 10px;
+        justify-content: space-evenly;
+
+        h2 {
+            width: 360px;
+        }
+
+        p {
+            width: 360px;
+        }
+    }
+
+    .popular_pb {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    .popular_card_right{
+        h2 {
+            width: 340px;
+        }
+        p{
+            width: 340px;
+        }
+    }
+}
+
+@media only screen and (max-width: 659px) {
+    .popular_card {
+        flex-direction: column;
+        width: fit-content;
+        padding-bottom: 17px;
+            
+        .popular_card_left {
+            background-position: top;
+            height: 200px;
+            width: 100%;
+        }
+
+        .popular_card_right {
+            margin: 0px;
+                h2 {
+                    width: 100%;
+                }
+
+                p {
+                    width: 100%;
+                }
+            }
+
+            .button_div {
+                margin-top: 12px;
+                height: 44px;
+        }
+    }
+}
+
+/* @media only screen and (max-width: 435px){
+    .popular_card_left{
+        height: 132px;
+        width: 132px;
+    }
+    .popular_card_right{
+        margin-left: 21px;
+        h2{
+            width: 230px;
+            font-size: 17px;
+        }
+    }
+    .popular_pb{
+        padding-bottom: 11%;
+    }
+}
+
+@media only screen and (max-width: 402px){
+    .popular_card_right{
+        margin-left: 11px;
+        h2{
+            width: 190px;
+            font-size: 17px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 342px){
+    .popular_card_right{
+        h2{
+            width: 145px;
+            font-size: 17px;
+        }
+    }
+} */

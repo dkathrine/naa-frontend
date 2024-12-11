@@ -1,0 +1,35 @@
+.button_link{
+    width: 158px;
+    height: 44px;
+    padding: 12px 25px;
+    background: #3B3B3B 0% 0% no-repeat padding-box;
+    border: 1px solid #3B3B3B;
+    border-radius: 25px;
+    text-align: center;
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.button_link:hover, .button_link:active{
+    background: #2b2b2b;
+    border: 1px solid #3B3B3B;
+}
+
+.button_link_opac{
+    width: 158px;
+    height: 44px;
+    padding: 12px 25px;
+    background: #3b3b3b80 0% 0% no-repeat padding-box;
+    border: 1px solid #ffffff80;
+    border-radius: 25px;
+    text-align: center;
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.button_link_opac:hover, .button_link_opac:active{
+    background: #2b2b2b80;
+    border: 1px solid #ffffff80;
+}

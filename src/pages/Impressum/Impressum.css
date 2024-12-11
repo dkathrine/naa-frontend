@@ -1,0 +1,45 @@
+.impressum_content{
+    /* margin: 60px 303px; */
+    margin: 3.75rem 18.9375rem;
+    h2{
+        border-left: 4px solid #3A3A3A;
+        padding-left: 14px;
+        margin-bottom: 55px;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    .impressum_content{
+        margin: 3.75rem 10rem;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .impressum_content{
+        margin: 3.75rem 7rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .impressum_content{
+        margin: 3rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .impressum_content{
+        margin: 2.75rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .impressum_content{
+        margin: 2rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .impressum_content{
+        margin: 1.75rem 1rem;
+    }
+}
